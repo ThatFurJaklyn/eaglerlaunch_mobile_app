@@ -15,3 +15,4 @@ if (s=4){
   openTab("https://m.eaglercraft.com/mc/indev/?userscript=irv77-eaglercraft-mobile.js")
 }
 
+//no longer used
