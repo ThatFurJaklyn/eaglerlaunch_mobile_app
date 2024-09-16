@@ -1,0 +1,22 @@
+body {
+  background: Black;
+  color: #ffffff;
+  font-family: monospace;
+  font-size: 18px;
+  align-items: center;
+  text-align: center
+  
+}
+p {
+  color: #000000;
+  font-size: 1px;
+}
+h1 {
+  font-weight: bold;
+}
+select {
+  font-size: 24px;
+}
+button {
+  font-size: 18px;
+}
