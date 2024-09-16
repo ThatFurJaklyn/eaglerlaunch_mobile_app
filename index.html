@@ -2,12 +2,22 @@
 <html>
   <head>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+function populate(s1, s2){
+  s1 = document.getElementById(s1);
+  s2 = document.getElementById(s2);
+  s2.innerHTML = "";
+  if (s1.value == "1.8.8"){
+    href = https://m.eaglercraft.com/mc/1.8.8/?userscript=irv77-eaglercraft-mobile.js
+  }
+}   
+    </script>
   </head>
   <body>
     <img src="logo.png" alt="EaglerLogo" width="350"><br><br>
     <label for="version">Choose a Version:</label><br>
     <div class="container">
-    <select name="Version" id="version">     
+    <select name="Version" id="version" onchange="populate(this.id, 'launchbtn')">     
       <option disabled="" hidden="" selected="">--Select--</option>
       <option value="1.8.8">1.8.8</option>
       <option value="1.5.2">1.5.2</option>
@@ -18,7 +28,7 @@
       </div>
     <script src="getselect.js"></script>
 
-    <button onclick="runSelect()">Launch</button>
+    <button id="launchbtn", name="launchbtn" >Launch</button>
         <script src="runselect.js"></script>
   </body>
 </html>
